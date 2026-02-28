@@ -1,0 +1,22 @@
+[
+{
+"question":"1. What is Python?",
+"options":["a. Programming Language","b. Snake","c. Car","d. Movie"],
+"correct":"a",
+"prize":1000
+},
+
+{
+"question":"2. Which keyword creates function?",
+"options":["a. make","b. def","c. fun","d. create"],
+"correct":"b",
+"prize":2000
+},
+
+{
+"question":"3. Which symbol is used for comments?",
+"options":["a. //","b. #","c. *","d. &"],
+"correct":"b",
+"prize":5000
+}
+]

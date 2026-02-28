@@ -1,0 +1,22 @@
+import json
+
+print("WELCOME TO KBC")
+
+file=open("../data/questions.json")
+
+questions=json.load(file)
+
+for q in questions:
+
+    print("\n",q["question"])
+
+    for opt in q["options"]:
+        print(opt)
+
+    ans=input("Enter answer: ")
+
+    if ans==q["correct"]:
+        print("Correct")
+    else:
+        print("Wrong")
+        break
