@@ -11,7 +11,7 @@ This is a Python quiz game based on Kaun Banega Crorepati.
 ## Run Project
 
 Run:
-python src/kbc_game.py
+python notebook/kbc_game.py
 
 
 
